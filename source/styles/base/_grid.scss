@@ -22,7 +22,7 @@ $gutter: 1rem;
 
 }
 
-@include mq(medium) {
+@include mq(large) {
 
   .col--quarter {
     width: 25%;
