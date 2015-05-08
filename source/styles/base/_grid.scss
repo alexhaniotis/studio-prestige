@@ -1,0 +1,35 @@
+$gutter: 1rem;
+
+.row {
+  margin: 0 (-$gutter);
+}
+
+.col {
+  padding: 0 $gutter;
+}
+
+@include mq(medium) {
+
+  .col {
+    float: left;
+  }
+
+  .col--half,
+  .col--quarter,
+  .col--third {
+    width: 50%;
+  }
+
+}
+
+@include mq(medium) {
+
+  .col--quarter {
+    width: 25%;
+  }
+
+  .col--third {
+    width: (100% / 3);
+  }
+
+}

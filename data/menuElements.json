@@ -9,6 +9,9 @@
     "title": "News",
     "href": "/news"
   }, {
+    "title": "Gallery",
+    "href": "/gallery"
+  }, {
     "title": "Contact",
     "href": "/contact"
   }]

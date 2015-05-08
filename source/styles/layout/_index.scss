@@ -1,4 +1,4 @@
-.index {
+.index-header {
   min-height: 100%;
   @include display(flex);
   @include flex-direction(column);
@@ -10,7 +10,7 @@
   }
 }
 
-.index__section {
+.index-header__section {
   text-align: center;
   width: 100%;
   color: #fff;
@@ -33,16 +33,16 @@
   }
 
   @include mq(large) {
-    height: 40rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    height: 34rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 
-.index__section--purple {
+.index-header__section--purple {
   background-color: $color-purple;
 }
 
-.index__section--blue {
+.index-header__section--blue {
   background-color: $color-blue;
 }

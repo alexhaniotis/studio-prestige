@@ -1,0 +1,18 @@
+@mixin icon($filename, $width, $height) {
+  background-image: image-url('icons/#{$filename}.svg');
+  background-repeat: no-repeat;
+  width: $width;
+  height: $height;
+  background-size: $width $height;
+}
+
+.icon {
+  display: inline-block;
+  background-position: center center;
+  @include hide-text;
+}
+
+.icon--arrow {
+  @include transition(all $time $curve);
+  @include icon(arrow, 12px, 7px);
+}

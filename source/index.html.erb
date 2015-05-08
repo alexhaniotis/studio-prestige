@@ -20,23 +20,42 @@
 
       <%= partial :nav %>
 
-      <section class="index">
-        <section class="index__section index__section--purple">
+      <header class="index-header">
+        <section class="index-header__section index-header__section--purple">
           <div class="site-wrapper">
             <h3>Prestige Dance School</h3>
             <h1>Dance school based in Laval, Quebec featuring all styles of dance for all ages.</h1>
-            <a href="#" class="btn">Learn More</a>
+            <a href="#" class="btn btn--white">Learn More</a>
           </div>
         </section>
-        <section class="index__section index__section--blue">
+        <section class="index-header__section index-header__section--blue">
           <div class="site-wrapper">
             <h3>Studio Evolution</h3>
             <h1>High-end exclusive fitness studio located at Laval Centropolis.</h1>
-            <a href="#" class="btn">Learn More</a>
+            <a href="#" class="btn btn--white">Learn More</a>
           </div>
         </section>
+      </header>
+
+      <section class="section section--border center">
+        <div class="site-wrapper site-wrapper--small">
+          <h2>About</h2>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <a href="#" class="btn">Learn More<span class="icon icon--arrow"></span></a>
+        </div>
       </section>
 
+      <section class="section section--border center">
+        <div class="site-wrapper site-wrapper--small">
+          <h2>Services</h2>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <a href="#" class="btn">Learn More<span class="icon icon--arrow"></span></a>
+        </div>
+      </section>
+
+      <%= partial :cta %>
       <%= partial :footer %>
 
     </div>

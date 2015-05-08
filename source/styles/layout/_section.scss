@@ -1,5 +1,6 @@
 .section {
   padding: 4rem 0;
+  background-color: #fff;
 
   @include mq(medium) {
     padding: 5rem 0;
@@ -12,4 +13,13 @@
 
 .section--border {
   border-bottom: 1px solid $color-border;
+}
+
+.section--cta {
+  display: block;
+  background-color: lighten($color-grey-dark, 5%);
+
+  h2 {
+    color: #fff;
+  }
 }

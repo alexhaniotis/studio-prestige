@@ -67,7 +67,7 @@ a {
   }
 
   @include mq(large) {
-    width: 45%;
+    width: 50%;
   }
 }
 
@@ -78,17 +78,16 @@ a {
   }
 
   @include mq(large) {
-    width: 60%;
+    width: 65%;
   }
 }
 
 .site-container {
-  background-color: #fff;
-  margin: 0 auto;
+  margin: 1rem auto;
   @include clearfix;
 
   @include mq(medium) {
-    max-width: 1200px;
-    width: 90%;
+    max-width: 1400px;
+    padding: 0 2rem;
   }
 }
