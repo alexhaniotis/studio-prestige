@@ -1,0 +1,13 @@
+.btn {
+  color: #fff;
+  border: 1px solid rgba(#fff, 0.3);
+  padding: 1rem 2rem;
+  display: inline-block;
+  @include transition(all $time $curve);
+  @extend h3;
+
+  &:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+}

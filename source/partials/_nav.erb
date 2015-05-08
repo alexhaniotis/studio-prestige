@@ -1,0 +1,10 @@
+<nav class="main-navigation">
+  <div class="site-wrapper">
+    <a class="logo" href="/">Condo514</a>
+    <ul class="main-navigation__items">
+      <% data.menuElements.top.each do |menuElement| %>
+        <li><a href="<%= menuElement.href %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= menuElement.title %></a></li>
+      <% end %>
+    </ul>
+  </div>
+</nav>

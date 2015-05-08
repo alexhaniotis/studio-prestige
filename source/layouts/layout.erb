@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title><%= current_page.data.heading %> | Studio Prestige</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= favicon_tag '/favicon.png' %>
+    <%= stylesheet_link_tag "main" %>
+
+  </head>
+  <body>
+
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="site-container">
+
+      <%= partial :nav %>
+      <%= partial :header %>
+
+      <%= yield %>
+
+      <%= partial :footer %>
+
+    </div>
+
+    <%= partial :ga %>
+    <%= javascript_include_tag 'main' %>
+
+  </body>
+</html>

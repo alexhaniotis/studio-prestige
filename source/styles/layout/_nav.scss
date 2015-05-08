@@ -1,0 +1,47 @@
+.main-navigation {
+  padding: 2rem 0;
+  text-align: center;
+
+  @include mq(large) {
+    height: 80px;
+    line-height: 80px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 104px;
+    height: 28px;
+    background-image: url('/images/logo.svg');
+    background-size: 104px 28px;
+    margin-bottom: 1rem;
+    @include hide-text;
+
+    @include mq(large) {
+      margin-top: 26px;
+      float: left;
+    }
+  }
+}
+
+.main-navigation__items {
+
+  > li {
+    display: inline-block;
+    margin-left: 1rem;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    a.active {
+      color: $color-grey-dark;
+    }
+  }
+
+  @include mq(large) {
+    float: right;
+  }
+
+}

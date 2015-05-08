@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Studio Prestige</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= favicon_tag '/favicon.png' %>
+    <%= stylesheet_link_tag "main" %>
+
+  </head>
+  <body>
+
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="site-container">
+
+      <%= partial :nav %>
+
+      <section class="index">
+        <section class="index__section index__section--purple">
+          <div class="site-wrapper">
+            <h3>Prestige Dance School</h3>
+            <h1>Dance school based in Laval, Quebec featuring all styles of dance for all ages.</h1>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </section>
+        <section class="index__section index__section--blue">
+          <div class="site-wrapper">
+            <h3>Studio Evolution</h3>
+            <h1>High-end exclusive fitness studio located at Laval Centropolis.</h1>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </section>
+      </section>
+
+      <%= partial :footer %>
+
+    </div>
+
+    <%= partial :ga %>
+    <%= javascript_include_tag 'main' %>
+
+  </body>
+</html>

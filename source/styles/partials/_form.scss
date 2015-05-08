@@ -1,0 +1,51 @@
+input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+.field-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  line-height: 1.2;
+  background-color: $color-input;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  @include appearance(none);
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.field-input--textarea {
+  height: 8rem;
+}
+
+.field-input--button {
+  display: inline-block;
+  color: #fff;
+  background-color: $color-purple;
+  text-align: center;
+
+  &:hover {
+    color: #fff;
+    background-color: darken($color-purple, 3%);
+  }
+
+  @include mq(medium) {
+    width: auto;
+  }
+
+  form & {
+    float: right;
+  }
+}
+
+.field-input--dropdown {
+  background-image: url("/images/icons/dropdown.svg");
+  background-position: center right 1.2rem;
+  background-repeat: no-repeat;
+}

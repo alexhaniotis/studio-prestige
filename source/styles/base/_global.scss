@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: $color-background;
+  color: $color-grey;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $color-grey;
+
+  &:hover {
+    color: $color-grey-dark;
+  }
+
+  p {
+    color: $color-grey !important; // Force default text color when p is inside a
+  }
+}
+
+
+// Utility classes
+
+.center {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+// Site container and wrapper
+
+.site-wrapper {
+  padding: 0 2rem;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+.site-wrapper--small {
+
+  @include mq(medium) {
+    width: 75%;
+  }
+
+  @include mq(large) {
+    width: 45%;
+  }
+}
+
+.site-wrapper--medium {
+
+  @include mq(medium) {
+    width: 85%;
+  }
+
+  @include mq(large) {
+    width: 60%;
+  }
+}
+
+.site-container {
+  background-color: #fff;
+  margin: 0 auto;
+  @include clearfix;
+
+  @include mq(medium) {
+    max-width: 1200px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "top": [{
+    "title": "About",
+    "href": "/about"
+  }, {
+    "title": "Services",
+    "href": "/services"
+  }, {
+    "title": "News",
+    "href": "/news"
+  }, {
+    "title": "Contact",
+    "href": "/contact"
+  }]
+}

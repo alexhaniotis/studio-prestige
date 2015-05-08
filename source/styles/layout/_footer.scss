@@ -1,0 +1,41 @@
+.main-footer {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 90%;
+  background-color: $color-grey-dark;
+
+  @include mq(large) {
+    text-align: left;
+  }
+
+  .main-footer__copyright {
+    display: inline-block;
+    margin-bottom: 1rem;
+
+    @include mq(large) {
+      margin: 0;
+      float: left;
+    }
+  }
+}
+
+.main-footer__items {
+
+  > li {
+    display: inline-block;
+    margin-left: 1rem;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    a:hover {
+      color: $color-grey-light;
+    }
+  }
+
+  @include mq(large) {
+    float: right;
+  }
+
+}

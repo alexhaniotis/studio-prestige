@@ -1,0 +1,15 @@
+.section {
+  padding: 4rem 0;
+
+  @include mq(medium) {
+    padding: 5rem 0;
+  }
+
+  @include mq(large) {
+    padding: 6rem 0;
+  }
+}
+
+.section--border {
+  border-bottom: 1px solid $color-border;
+}
