@@ -2,7 +2,11 @@
   padding: 2rem 0;
   text-align: center;
   font-size: 90%;
-  background-color: $color-background;
+  background-color: #fff;
+
+  @include mq(medium) {
+    background-color: $color-background;
+  }
 
   @include mq(large) {
     text-align: left;

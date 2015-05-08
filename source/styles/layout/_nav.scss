@@ -1,7 +1,11 @@
 .main-navigation {
   padding: 2rem 0;
   text-align: center;
-  background-color: $color-background;
+  background-color: #fff;
+
+  @include mq(medium) {
+    background-color: $color-background;
+  }
 
   @include mq(large) {
     height: 80px;

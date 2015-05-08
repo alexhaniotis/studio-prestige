@@ -83,10 +83,11 @@ a {
 }
 
 .site-container {
-  margin: 1rem auto;
+  margin: 0 auto;
   @include clearfix;
 
   @include mq(medium) {
+    margin: 1rem auto;
     max-width: 1400px;
     padding: 0 2rem;
   }
