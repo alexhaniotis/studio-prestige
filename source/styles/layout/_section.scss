@@ -33,7 +33,7 @@
   left: 0;
   opacity: 0.3;
   background-image: url("https://obvious.com/images/photos/team.jpg");
-  background-position: center top;
+  background-position: center center;
   background-size: cover;
   @include transition(all $time $curve);
 }
