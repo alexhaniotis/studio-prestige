@@ -15,13 +15,10 @@
   }
 
   .logo {
-    display: inline-block;
     width: 104px;
     height: 28px;
-    background-image: url('/images/logo.svg');
-    background-size: 104px 28px;
     margin-bottom: 1rem;
-    @include hide-text;
+    fill: $color-grey-dark;
 
     @include mq(large) {
       margin-top: 26px;
