@@ -1,23 +1,29 @@
 .index-header {
-  min-height: 100%;
-  @include display(flex);
-  @include flex-direction(column);
-  @include justify-content(center);
-  @include align-items(center);
+  @include clearfix;
 
   @include mq(large) {
-    @include flex-direction(row);
+    height: 100%;
+    border: 2rem solid $color-background;
   }
 }
 
 .index-header__section {
   text-align: center;
   width: 100%;
+  height: 100%;
   color: #fff;
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   @include display(flex);
+  @include flex-direction(column);
   @include justify-content(center);
   @include align-items(center);
+
+  @include mq(large) {
+    width: 50%;
+    float: left;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 
   h1 {
     margin: 1.5rem 0;
@@ -27,15 +33,8 @@
     }
   }
 
-  @include mq(medium) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  @include mq(large) {
-    height: 34rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  h3 {
+    margin: 0;
   }
 }
 
