@@ -7,7 +7,7 @@
   }
 
   @include mq(large) {
-    padding: 6rem 0;
+    padding: 7rem 0;
   }
 }
 
@@ -17,9 +17,36 @@
 
 .section--cta {
   display: block;
-  background-color: lighten($color-grey-dark, 5%);
+  position: relative;
+  background-color: #000;
+
+  &:hover .section--cta__image {
+    opacity: 0.25;
+  }
+}
+
+.section--cta__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  background-image: url("https://obvious.com/images/photos/team.jpg");
+  background-position: center top;
+  background-size: cover;
+  @include transition(all $time $curve);
+}
+
+.section--cta__content {
+  position: relative;
+  z-index: 999;
 
   h2 {
     color: #fff;
+  }
+
+  p {
+    color: rgba(#fff, 0.7);
   }
 }

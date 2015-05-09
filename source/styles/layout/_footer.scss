@@ -32,10 +32,6 @@
     &:first-child {
       margin: 0;
     }
-
-    a:hover {
-      color: $color-grey-light;
-    }
   }
 
   @include mq(large) {
