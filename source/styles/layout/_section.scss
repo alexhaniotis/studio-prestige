@@ -19,9 +19,11 @@
   display: block;
   position: relative;
   background-color: $color-grey-dark;
+  overflow: hidden;
 
   &:hover .section--cta__image {
     opacity: 0.1;
+    @include transform(scale(1.05));
   }
 }
 

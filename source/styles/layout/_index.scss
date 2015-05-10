@@ -35,10 +35,9 @@
   display: block;
   position: relative;
   text-align: center;
-  width: 100%;
-  height: 100%;
   color: #fff;
   padding: 4rem 2rem;
+  overflow: hidden;
   @include flex(1);
   @include display(flex);
   @include flex-direction(column);
@@ -55,6 +54,7 @@
 
     .index__section__image {
       opacity: 0.1;
+      @include transform(scale(1.05));
     }
   }
 
