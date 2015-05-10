@@ -5,6 +5,8 @@
 
 $(document).ready(function() {
 
+  $(".preloader").delay(500).fadeOut("slow");
+
   var wow = new WOW(
     {
       boxClass:     'wow',      // animated element css class (default is wow)
