@@ -19,11 +19,15 @@
 }
 
 .index {
+  min-height: 100%;
+  @include display(flex);
+  @include flex-direction(column);
   @include clearfix;
 
   @include mq(large) {
-    height: 100%;
     border: 2rem solid $color-background;
+    height: 100%;
+    @include flex-direction(row);
   }
 }
 
@@ -35,6 +39,7 @@
   height: 100%;
   color: #fff;
   padding: 4rem 2rem;
+  @include flex(1);
   @include display(flex);
   @include flex-direction(column);
   @include justify-content(center);
@@ -42,8 +47,6 @@
   @include transition(all $time $curve);
 
   @include mq(large) {
-    width: calc(50% - 1rem);
-    float: left;
     padding: 4rem;
   }
 
