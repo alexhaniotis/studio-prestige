@@ -1,3 +1,5 @@
+// Icon mixin
+
 @mixin icon($filename, $width, $height) {
   background-image: image-url('icons/#{$filename}.svg');
   background-repeat: no-repeat;
@@ -6,11 +8,17 @@
   background-size: $width $height;
 }
 
+
+// Generic icon class
+
 .icon {
   display: inline-block;
   background-position: center center;
   @include hide-text;
 }
+
+
+// Arrow icon
 
 .icon--arrow {
   @include transition(all $time $curve);

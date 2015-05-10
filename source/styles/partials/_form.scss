@@ -1,7 +1,12 @@
+// Form reset
+
 input, textarea {
   margin: 0;
   padding: 0;
 }
+
+
+// Input
 
 .field-input {
   display: block;
@@ -20,9 +25,15 @@ input, textarea {
   }
 }
 
+
+// Textarea
+
 .field-input--textarea {
   height: 8rem;
 }
+
+
+// Button
 
 .field-input--button {
   display: inline-block;
@@ -43,6 +54,9 @@ input, textarea {
     float: right;
   }
 }
+
+
+// Dropdown
 
 .field-input--dropdown {
   background-image: url("/images/icons/dropdown.svg");
