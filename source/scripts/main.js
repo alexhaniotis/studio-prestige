@@ -5,7 +5,7 @@
 
 $(document).ready(function() {
 
-  $(".preloader").delay(500).fadeOut("slow");
+  $(".preloader").delay(1000).fadeOut("slow");
 
   var wow = new WOW(
     {
