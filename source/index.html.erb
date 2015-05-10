@@ -16,18 +16,24 @@
       <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header class="index-header">
-      <section class="index-header__section index-header__section--purple">
-        <h3>Dance</h3>
-        <h1>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h1>
-        <a href="/left/" class="btn btn--white">Learn More</a>
-      </section>
-      <section class="index-header__section index-header__section--blue">
-        <h3>Other service</h3>
-        <h1>Nulla vitae elit libero, a pharetra augue magna etiam egestas cras.</h1>
-        <a href="/right/" class="btn btn--white">Learn More</a>
-      </section>
-    </header>
+    <section class="index">
+      <a href="/left/about/" class="index__section index__section--purple">
+        <div class="index__section__content">
+          <h3>Left</h3>
+          <h1>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h1>
+          <span class="btn btn--white">Learn More</span>
+        </div>
+        <div class="index__section__image"></div>
+      </a>
+      <a href="#" class="index__section index__section--blue">
+        <div class="index__section__content">
+          <h3>Right</h3>
+          <h1>Nulla vitae elit libero, a pharetra augue magna etiam egestas cras.</h1>
+          <span class="btn btn--white">Learn More</span>
+        </div>
+        <div class="index__section__image"></div>
+      </a>
+    </section>
 
     <%= partial :ga %>
     <%= javascript_include_tag 'main' %>
