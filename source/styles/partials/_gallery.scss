@@ -1,0 +1,24 @@
+// Gallery mixin
+
+@mixin columns($columns) {
+  width: 100% / $columns;
+}
+
+.gallery {
+  margin: 0 (-$gutter);
+  @include clearfix;
+}
+
+.gallery__item {
+  float: left;
+  padding: 0 $gutter;
+  margin-bottom: $gutter*2;
+
+  @include mq(medium) {
+    @include columns(2);
+  }
+
+  @include mq(large) {
+    @include columns(4);
+  }
+}

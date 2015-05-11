@@ -46,12 +46,10 @@ input, textarea {
 .field-input--button {
   display: inline-block;
   color: #fff;
-  background-color: $color-purple;
   text-align: center;
 
   &:hover {
     color: #fff;
-    background-color: darken($color-purple, 3%);
   }
 
   @include mq(medium) {
@@ -60,6 +58,10 @@ input, textarea {
 
   form & {
     float: right;
+  }
+
+  .dance & {
+    background-color: $color-purple;
   }
 }
 

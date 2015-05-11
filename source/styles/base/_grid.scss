@@ -4,6 +4,7 @@ $gutter: 1rem;
 
 .row {
   margin: 0 (-$gutter);
+  @include clearfix;
 }
 
 .col {

@@ -1,12 +1,11 @@
 @import "bourbon/_bourbon";
+@import "base/normalize";
 
 @import "partials/variables";
 @import "partials/animations";
 @import "partials/buttons";
 @import "partials/icons";
-@import "partials/form";
 
-@import "base/normalize";
 @import "base/grid";
 @import "base/global";
 @import "base/typography";
@@ -17,3 +16,7 @@
 @import "layout/footer";
 @import "layout/section";
 @import "layout/index";
+
+@import "partials/form";
+@import "partials/table";
+@import "partials/gallery";

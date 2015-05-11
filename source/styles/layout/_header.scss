@@ -1,7 +1,6 @@
 // Page header
 
 .page-header {
-  background-color: $color-purple;
   color: #fff;
   text-align: center;
   padding: 4rem 0;
@@ -12,6 +11,10 @@
 
   @include mq(large) {
     padding: 8rem 0;
+  }
+
+  .dance & {
+    background-color: $color-purple;
   }
 }
 
