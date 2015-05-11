@@ -33,7 +33,11 @@
 
   > li {
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+
+    @include mq(medium) {
+      margin-left: 1rem;
+    }
 
     &:first-child {
       margin: 0;
