@@ -1,0 +1,22 @@
+---
+fr:
+  nav:
+    about: "À propos"
+    services: "Services"
+    news: "Nouvelles"
+    gallery: "Gallerie"
+    contact: "Contact"
+  contact:
+    header: "Contact"
+    other_common_element: "blabla"
+    dance:
+      whatevs: "blabla"
+    groupe:
+      whatevs: "blabla"
+  news:
+    header: "Nouvelles"
+    other_common_element: "blabla"
+    dance:
+      whatevs: "blabla"
+    groupe:
+      whatevs: "blabla"

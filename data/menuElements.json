@@ -1,18 +1,18 @@
 {
   "top": [{
-    "title": "About",
-    "href": "/about"
+    "title": "about",
+    "href": "about"
   }, {
-    "title": "Services",
-    "href": "/services"
+    "title": "services",
+    "href": "services"
   }, {
-    "title": "News",
-    "href": "/news"
+    "title": "news",
+    "href": "news"
   }, {
-    "title": "Gallery",
-    "href": "/gallery"
+    "title": "gallery",
+    "href": "gallery"
   }, {
-    "title": "Contact",
-    "href": "/contact"
+    "title": "contact",
+    "href": "contact"
   }]
 }

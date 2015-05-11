@@ -11,7 +11,7 @@ end
 
 # Reload the browser automatically whenever files change
 activate :livereload
-
+activate :i18n, :mount_at_root => false
 activate :directory_indexes
 
 set :css_dir, 'styles'
@@ -24,6 +24,35 @@ configure :build do
 	activate :minify_css
 	activate :minify_javascript
 	activate :asset_hash
+  activate :imageoptim
+end
+
+# Methods defined in the helpers block are available in templates
+helpers do
+  # Returns the current section (dance or groups)
+  def section
+    @page_id.split("/")[1]
+  end
+
+  # Returns the current page's absolute path for the specified locale
+  def translated_url(locale)
+    page_name = @page_id.split("/")[1..-1].join("/").sub(/\..*$/, '')
+
+    if page_name == "index" then
+      return "/#{locale}/"
+    end
+
+    "/#{locale}/#{page_name}"
+  end
+
+  # Return the other language, assuming there is only en and fr
+  def other_lang
+    if I18n.locale == :en then
+      "fr"
+    else
+      "en"
+    end
+  end
 end
 
 page '/index.html', :layout => false
