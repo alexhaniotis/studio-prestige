@@ -4,6 +4,7 @@
   padding: 2rem 0;
   text-align: center;
   background-color: #fff;
+  line-height: 1.7; // Sufficient line height if the navigation elements wrap
 
   @include mq(medium) {
     background-color: $color-background;

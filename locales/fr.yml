@@ -23,10 +23,10 @@ fr:
       whatevs: "blabla"
     contact_us:
       title: "Contactez-nous"
-      text: "Remplir le formulaire ci-dessous pour nous contacter."
+      text: "Veuillez remplir le formulaire ci-dessous pour nous contacter."
     registration:
       title: "Inscription"
-      text: "Remplir le formulaire ci-dessous pour vous inscrire à un de nos cours."
+      text: "Veuillez remplir le formulaire ci-dessous pour vous inscrire à un de nos cours."
   news:
     header: "Nouvelles"
     other_common_element: "blabla"
@@ -37,6 +37,7 @@ fr:
   about:
     header: "À Propos"
   services:
+    schedule: "Horaire"
     week:
       sunday: "Dimanche"
       monday: "Lundi"

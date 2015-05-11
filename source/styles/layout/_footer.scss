@@ -5,6 +5,7 @@
   text-align: center;
   font-size: 90%;
   background-color: #fff;
+  line-height: 1.7; // Sufficient line height if the navigation elements wrap
 
   @include mq(medium) {
     background-color: $color-background;
