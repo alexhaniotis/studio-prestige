@@ -22,3 +22,12 @@ fr:
       whatevs: "blabla"
   about:
     header: "À Propos"
+  services:
+    week:
+      sunday: "Dimanche"
+      monday: "Lundi"
+      tuesday: "Mardi"
+      wednesday: "Mercredi"
+      thursday: "Jeudi"
+      friday: "Vendredi"
+      saturday: "Samedi"

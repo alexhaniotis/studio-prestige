@@ -2,6 +2,10 @@
 
 .schedule-day {
   margin-bottom: 2rem;
+
+  @include mq(large) {
+    margin-bottom: 4rem;
+  }
 }
 
 .schedule-line {
