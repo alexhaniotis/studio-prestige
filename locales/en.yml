@@ -46,6 +46,9 @@ en:
       thursday: "Thursday"
       friday: "Friday"
       saturday: "Saturday"
+  cta:
+    title: "Contact us today"
+    text: "Don't hesitate to get in touch with us for more information about the classes we offer or for any other questions."
   form:
     name: "Name"
     email: "Email"

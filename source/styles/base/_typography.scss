@@ -4,6 +4,7 @@ body {
   font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: subpixel-antialiased;
+  line-height: 1.5;
 
   @include mq(medium) {
     font-size: 15px;
@@ -18,7 +19,6 @@ body {
 // Paragraph
 
 p {
-  line-height: 1.5;
   margin: 0 0 1.5rem 0;
 
   &:last-child {

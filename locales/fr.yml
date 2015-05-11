@@ -46,6 +46,9 @@ fr:
       thursday: "Jeudi"
       friday: "Vendredi"
       saturday: "Samedi"
+  cta:
+    title: "Contactez-nous dès aujourd'hui"
+    text: "N'hésitez pas à nous contacter pour de l'information concernant les cours que nous offrons ou pour toutes autres questions."
   form:
     name: "Nom"
     email: "Courriel"
