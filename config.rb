@@ -34,15 +34,16 @@ helpers do
     @page_id.split("/")[1]
   end
 
+  def tlink(href)
+    "/#{I18n.locale}/#{href}".gsub('index', '')
+  end
+
   # Returns the current page's absolute path for the specified locale
   def translated_url(locale)
-    page_name = @page_id.split("/")[1..-1].join("/").sub(/\..*$/, '')
-
-    if page_name == "index" then
-      return "/#{locale}/"
-    end
-
-    "/#{locale}/#{page_name}"
+    "/" + @page_id
+            .gsub('.html', '')
+            .gsub(I18n.locale.to_s, other_lang)
+            .gsub('index', '')
   end
 
   # Return the other language, assuming there is only en and fr
@@ -55,4 +56,5 @@ helpers do
   end
 end
 
-page '/index.html', :layout => false
+page '/en/index.html', :layout => false
+page '/fr/index.html', :layout => false

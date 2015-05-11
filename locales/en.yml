@@ -14,9 +14,11 @@ en:
     groupe:
       whatevs: "blabla"
   news:
-    header: "nouvelles"
+    header: "News"
     other_common_element: "blabla"
     dance:
       whatevs: "blabla"
     groupe:
       whatevs: "blabla"
+  about:
+    header: "À Propos"
