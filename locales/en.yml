@@ -13,6 +13,12 @@ en:
       whatevs: "blabla"
     groupe:
       whatevs: "blabla"
+    contact_us:
+      title: "Contact us"
+      text: "Simply fill out the form below to get in touch with us."
+    registration:
+      title: "Registration"
+      text: "Simply fill out the form below to register for one of our classes."
   news:
     header: "News"
     other_common_element: "blabla"
@@ -31,3 +37,8 @@ en:
       thursday: "Thursday"
       friday: "Friday"
       saturday: "Saturday"
+  form:
+    name: "Name"
+    email: "Email"
+    message: "Your message"
+    send: "Send message"

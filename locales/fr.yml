@@ -13,6 +13,12 @@ fr:
       whatevs: "blabla"
     groupe:
       whatevs: "blabla"
+    contact_us:
+      title: "Contactez-nous"
+      text: "Remplir le formulaire ci-dessous pour nous contacter."
+    registration:
+      title: "Inscription"
+      text: "Remplir le formulaire ci-dessous pour vous inscrire à un de nos cours."
   news:
     header: "Nouvelles"
     other_common_element: "blabla"
@@ -31,3 +37,8 @@ fr:
       thursday: "Jeudi"
       friday: "Vendredi"
       saturday: "Samedi"
+  form:
+    name: "Nom"
+    email: "Courriel"
+    message: "Votre message"
+    send: "Envoyer"
