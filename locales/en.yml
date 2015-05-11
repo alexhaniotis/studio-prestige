@@ -1,5 +1,13 @@
 ---
 en:
+  index:
+    dance:
+      title: "Dance Classes"
+      text: TBD
+    group:
+      title: "Group Classes"
+      text: "TBD"
+    learn_more: "Learn More"
   nav:
     about: "About"
     services: "Services"
