@@ -55,4 +55,5 @@ helpers do
   end
 end
 
-page '/index.html', :layout => false
+page 'en/index.html', :layout => false
+page 'fr/index.html', :layout => false
