@@ -16,16 +16,15 @@
   display: inline-block;
   background-position: center center;
   @include hide-text;
-  @include transition(all $time $curve);
 }
 
 
 // Social icons
 
 .icon--facebook {
-  @include icon(facebook, 24px, 24px);
+  @include icon(facebook, 16px, 16px);
 }
 
 .icon--instagram {
-  @include icon(instagram, 24px, 24px);
+  @include icon(instagram, 16px, 16px);
 }
