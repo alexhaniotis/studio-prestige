@@ -18,15 +18,31 @@
   }
 
   .logo {
-    width: 104px;
-    height: 28px;
     margin-bottom: 1rem;
-    fill: $color-grey-dark;
 
     @include mq(large) {
       margin-top: 26px;
       float: left;
     }
+  }
+}
+
+.logo {
+  width: 104px;
+  height: 28px;
+  fill: $color-grey-dark;
+
+  &:hover .logo__mark {
+    fill: $color-purple;
+
+    [class*="group"] &, {
+      fill: $color-blue;
+    }
+  }
+
+  .logo__mark,
+  .logo__type {
+    @include transition(all $time $curve);
   }
 }
 
