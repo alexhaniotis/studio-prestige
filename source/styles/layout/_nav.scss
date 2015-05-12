@@ -39,11 +39,6 @@
       fill: $color-blue;
     }
   }
-
-  .logo__mark,
-  .logo__type {
-    @include transition(all $time $curve);
-  }
 }
 
 .main-navigation__items {

@@ -34,6 +34,14 @@ a {
   }
 }
 
+p a {
+  border-bottom: 1px solid $color-purple;
+
+  [class*="group"] &, {
+    border-color: $color-blue;
+  }
+}
+
 .service__image {
   width: 600px;
   margin-top: 0.5rem;
