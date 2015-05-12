@@ -1,7 +1,6 @@
 //= require modernizr/modernizr
 //= require jquery
 //= require wow
-//= require smoothstate
 
 $(document).ready(function() {
 

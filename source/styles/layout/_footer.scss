@@ -15,18 +15,30 @@
     text-align: left;
   }
 
-  .main-footer__copyright {
+  .main-footer__social {
     display: inline-block;
-    margin-bottom: 1rem;
 
     @include mq(large) {
-      margin: 0;
-      float: left;
+      float: right;
+    }
+
+    .icon {
+      margin-left: 0.5rem;
+      opacity: 0.5;
+
+      &:first-child {
+        margin: 0;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }
 
 .main-footer__items {
+  margin-bottom: 1rem;
 
   > li {
     display: inline-block;
@@ -38,7 +50,7 @@
   }
 
   @include mq(large) {
-    float: right;
+    float: left;
   }
 
 }

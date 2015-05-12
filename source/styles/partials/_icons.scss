@@ -6,6 +6,7 @@
   width: $width;
   height: $height;
   background-size: $width $height;
+  background-position: center center;
 }
 
 
@@ -15,12 +16,16 @@
   display: inline-block;
   background-position: center center;
   @include hide-text;
+  @include transition(all $time $curve);
 }
 
 
-// Arrow icon
+// Social icons
 
-.icon--arrow {
-  @include transition(all $time $curve);
-  @include icon(arrow-purple, 12px, 7px);
+.icon--facebook {
+  @include icon(facebook, 24px, 24px);
+}
+
+.icon--instagram {
+  @include icon(instagram, 24px, 24px);
 }
