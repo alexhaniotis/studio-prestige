@@ -1,5 +1,7 @@
 ---
 en:
+  meta:
+    description: "Meta description"
   index:
     dance:
       title: "Dance Classes"
@@ -21,8 +23,8 @@ en:
       whatevs: "blabla"
     groupe:
       whatevs: "blabla"
-    contact_us:
-      title: "Contact us"
+    general:
+      title: "General Inquiries"
       text: "Simply fill out the form below to get in touch with us."
     registration:
       title: "Registration"
@@ -35,8 +37,9 @@ en:
     groupe:
       whatevs: "blabla"
   about:
-    header: "À Propos"
+    header: "About"
   services:
+    header: "Services"
     schedule: "Schedule"
     week:
       sunday: "Sunday"
@@ -46,6 +49,8 @@ en:
       thursday: "Thursday"
       friday: "Friday"
       saturday: "Saturday"
+  gallery:
+    header: "Gallery"
   cta:
     title: "Contact us today"
     text: "Don't hesitate to get in touch with us for more information about the classes we offer or for any other questions."

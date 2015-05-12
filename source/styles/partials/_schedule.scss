@@ -14,17 +14,15 @@
   @include clearfix;
 }
 
-.schedule-line__event,
-.schedule-line__time {
-  width: 50%;
-  float: left;
-}
-
 .schedule-line__event {
+  width: 65%;
+  float: left;
   text-align: left;
   color: $color-grey-dark;
 }
 
 .schedule-line__time {
+  width: 35%;
+  float: right;
   text-align: right;
 }
