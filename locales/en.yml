@@ -29,6 +29,9 @@ en:
     registration:
       title: "Registration"
       text: "Simply fill out the form below to register for one of our classes."
+    directions:
+      title: "Directions"
+      text: "Our studio is located at 6605 Prince-Rupert Laval, Quebec, H7H 1C9"
   news:
     header: "News"
     other_common_element: "blabla"
