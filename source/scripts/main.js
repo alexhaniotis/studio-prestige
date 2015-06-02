@@ -11,6 +11,7 @@ $(document).ready(function() {
       boxClass: 'wow',
       animateClass: 'animated',
       mobile: false,
+      offset: 100
     }
   );
   wow.init();

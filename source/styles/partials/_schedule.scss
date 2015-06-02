@@ -12,6 +12,10 @@
   padding: 1rem 0;
   border-bottom: 1px solid $color-border;
   @include clearfix;
+
+  &:last-child {
+    border: 0;
+  }
 }
 
 .schedule-line__event {

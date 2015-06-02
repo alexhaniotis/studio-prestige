@@ -1,6 +1,6 @@
 <nav class="main-navigation">
   <div class="site-wrapper">
-    <%= partial :logo %>
+    <a href="<%= tlink "index" %>"><%= partial :logo %></a>
     <ul class="main-navigation__items">
       <% data.menuElements.top.each do |menuElement| %>
         <li><a href="<%= tlink "#{section}/#{menuElement.href}" %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= t "nav.#{menuElement.title}" %></a></li>
