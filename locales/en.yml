@@ -5,7 +5,7 @@ en:
   index:
     dance:
       title: "Dance Classes"
-      text: TBD
+      text: École de danse Prestige
     group:
       title: "Group Classes"
       text: "TBD"
@@ -41,6 +41,10 @@ en:
       whatevs: "blabla"
   about:
     header: "About"
+    title: "To test the pleasure of dance"
+    intro: "Ecole de Danse Prestige is a dance school located in Laval, Quebec. It caters to a clientel of experienced dancers looking to further their dancing instruction as well as to inexperienced dancers looking to have some fun and stay fit. Our vibrant teaching staff is both experienced and creative, offering you or any member of your family a specialized dancing experience."
+    courses: "Classes offered"
+    course_list:
   services:
     header: "Services"
     schedule: "Schedule"
@@ -52,6 +56,11 @@ en:
       thursday: "Thursday"
       friday: "Friday"
       saturday: "Saturday"
+    zumba:
+      title: "Zumba Fitness"
+      description: "If you're looking for a fun and exciting way to lose a few pounds or just stay healthy, why not try out a Zumba Fitness class?  A form of Latin Cardio, Zumba is a low impact, fast paced way to stay fit. Check out some videos on youtube (just type 'Zumba' in the search bar) to see for yourself."
+      description_2: "Zumba classes are offered at Ecole de Danse Prestige every Tuesday and Friday."
+      description_3: "For more info concerning prices or if you have any questions, do not hesitate to contact the fully licensed Zumba instructor, Josee Proulx at zumbajosee@gmail.com."
   gallery:
     header: "Gallery"
   cta:

@@ -6,6 +6,14 @@
   @include mq(large) {
     margin-bottom: 4rem;
   }
+
+  &:first-of-type {
+    margin-top: 2rem;
+
+    @include mq(large) {
+      margin-top: 4rem;
+    }
+  }
 }
 
 .schedule-line {
