@@ -1,0 +1,5 @@
+Registration
+---
+
+Name: {{name}}
+Email: {{email}}
