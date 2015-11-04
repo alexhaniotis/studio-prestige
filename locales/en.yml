@@ -8,7 +8,7 @@ en:
       text: École de danse Prestige
     group:
       title: "Group Classes"
-      text: "TBD"
+      text: "Studio Evolution group training"
     learn_more: "Learn More"
   nav:
     about: "About"
@@ -43,8 +43,23 @@ en:
     header: "About"
     title: "To test the pleasure of dance"
     intro: "Ecole de Danse Prestige is a dance school located in Laval, Quebec. It caters to a clientel of experienced dancers looking to further their dancing instruction as well as to inexperienced dancers looking to have some fun and stay fit. Our vibrant teaching staff is both experienced and creative, offering you or any member of your family a specialized dancing experience."
+    text: "Classes are offered for all age groups beginning from 2 years old. Classes are taught in a bilingual atmosphere, unless otherwise indicated."
     courses: "Classes offered"
-    course_list:
+    course1: "2-3 Jazz Beginner"
+    course2: "4-6 Jazz Beginner, Tap Beginner"
+    course3: "Training 6-7 (Jazz, Tap & Rap)"
+    course4: "Training 8-10"
+    course5: "Training 11-14"
+    course6: "Jazz & Lyr Beginner & DAB"
+    course7: "Hip Hop Kids 4-6, 6-8"
+    course8: "Hip Hop 9-12"
+    course9: "Hip Hop Teen & DAB"
+  competition:
+    text: "Competition groups are also offered. These groups represent the school at various competitions (local and abroad). Entry into a competition group is by audition only. Prior dance experience is needed in both Jazz and Tap."
+    item1: "Releve"
+    item2: "Competition +"
+    item3: "Rap (Inv, Deb, Bronze, Argent, Or)"
+    item4: "Hip Hop Elite"
   services:
     header: "Services"
     schedule: "Schedule"
@@ -61,6 +76,10 @@ en:
       description: "If you're looking for a fun and exciting way to lose a few pounds or just stay healthy, why not try out a Zumba Fitness class?  A form of Latin Cardio, Zumba is a low impact, fast paced way to stay fit. Check out some videos on youtube (just type 'Zumba' in the search bar) to see for yourself."
       description_2: "Zumba classes are offered at Ecole de Danse Prestige every Tuesday and Friday."
       description_3: "For more info concerning prices or if you have any questions, do not hesitate to contact the fully licensed Zumba instructor, Josee Proulx at zumbajosee@gmail.com."
+  new:
+    title: "New!"
+    text: "Are you looking for something different for your next birthday or corporate get together? Why not dance? École de danse Prestige offers various private and semi-private group packages in a variety of dance styles."
+    cta: "Reserve your group now!"
   gallery:
     header: "Gallery"
   cta:

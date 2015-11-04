@@ -7,11 +7,11 @@
   background-color: $color-purple;
 
   @include mq(medium) {
-    padding: 6rem 0;
+    padding: 5rem 0;
   }
 
   @include mq(large) {
-    padding: 8rem 0;
+    padding: 6rem 0;
   }
 
   [class*="group"] &, {

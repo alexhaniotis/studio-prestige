@@ -8,7 +8,7 @@ fr:
       text: École de danse Prestige
     group:
       title: "Cours de groupe"
-      text: "TBD"
+      text: "Studio Évolution entraînement de groupe"
     learn_more: "En savoir plus"
   nav:
     about: "À propos"
@@ -43,8 +43,23 @@ fr:
     header: "À Propos"
     title: "D’éprouver le plaisir de danser"
     intro: "École de danse Prestige est une école de danse située à Laval, Québec. Pour les plus avancés qui ont soif  d’apprendre, ou les moins avancés qui veulent se détendre et se mettre en forme, École de danse Prestige offre des cours variés de haut niveau. Petit ou grand, seul ou en famille, notre équipe vibrante et créatif  vous fera vivre des moments inoubliables en vous offrant une expérience de danse spécialisée."
+    text: "Les classes sont offertes pour toutes âges commençant à 2 ans. Les classes sont enseignées dans une atmosphère bilingue."
     courses: "Cours offerts"
-    course_list: 
+    course1: "2-3 Jazz Débutant"
+    course2: "4-6 Jazz Débutant, Tap Débutant"
+    course3: "Entraînement 6-7 (Jazz, Tap et Rap)"
+    course4: "Entraînement 8-10"
+    course5: "Entraînement 11-14"
+    course6: "Jazz & Lyr Débutant et DAB"
+    course7: "Hip Hop Enfants 4-6, 6-8"
+    course8: "Hip Hop 9-12"
+    course9: "Hip Hop Ado et DAB"
+  competition:
+    text: "Des groupes de compétition sont aussi offerts. Ces groupes représentent l'école aux diverses compétitions (local et à l'étranger). L'entrée dans un groupe de compétition est par audition seulement. Expérience est requise en jazz et claquette."
+    item1: "Relève"
+    item2: "Compétition +"
+    item3: "Rap (Inv, Deb, Bronze, Argent, Or)"
+    item4: "Hip Hop Elite"
   services:
     header: "Services"
     schedule: "Horaire"
@@ -61,6 +76,10 @@ fr:
       description: "Venez-vous mettre en forme dans une ambiance de fête!  Le Zumba vous faites redécouvrir l'aérobie en vous laissant être transporté par des rythmes latins énergisants. Les mouvements demeurent simples, mais l'intensité du rythme procure un excellent exercice cardiovasculaire. Les enchaînements de rythmes lents et rapides tonifient les jambes, les fessiers, les abdominaux et les bras. Allez voir des cours sur Youtube."
       description_2: "Les classes de Zumba sont offertes à École du Prestige de Danse tous les mardi et vendredi."
       description_3: " Pour plus d'information à propos des prix ou si vous avez autres questions, n’hésitez pas de contacter le professeur de Zumba certifiée, Josée Proulx à zumbajosee@gmail.com."
+  new:
+    title: "Nouveau!"
+    text: "Est-ce-que vous chercher quelque chose de différent pour ta prochain fête ou réunion corporatif? Pourquoi ne pas danser? École de danse Prestige offrent plusieurs forfaits de cours en groupe privé et semi-privé dans plusieurs styles de danse."
+    cta: "Réservez votre groupe maintenant!"
   gallery:
     header: "Gallerie"
   cta:

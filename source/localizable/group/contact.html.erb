@@ -1,0 +1,45 @@
+---
+heading: Contact
+---
+
+<section class="section section--border center wow animated fade-in-up">
+  <div class="site-wrapper site-wrapper--medium">
+    <h2><%= t "contact.directions.title" %></h2>
+    <p><%= t "contact.directions.text" %></p>
+    <div class="embed-container">
+      <iframe frameBorder='0' src='https://a.tiles.mapbox.com/v4/alexhaniotis.m5g84enm/attribution,zoompan.html?access_token=pk.eyJ1IjoiYWxleGhhbmlvdGlzIiwiYSI6ImtTLUJ1RmsifQ.z415STMopdQkkRMu2mbpDQ'></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section section--border center wow animated fade-in-up">
+  <div class="site-wrapper site-wrapper--small">
+    <h2><%= t "contact.registration.title" %></h2>
+    <p><%= t "contact.registration.text" %></p>
+    <form action="http://radimed.dev/ajax/sendEmail.php" method="post" id="registration" enctype="multipart/form-data">
+      <input class="field-input" type="text" placeholder="<%= t "form.name" %>" name="name">
+      <input class="field-input" type="email" placeholder="<%= t "form.email" %>" name="email">
+      <input class="field-input field-input--file" type="file" name="file">
+      <input type="hidden" name="template" value="registration">
+      <button class="field-input field-input--button"><%= t "form.send" %></button>
+    </form>
+  </div>
+</section>
+
+<section class="section center wow animated fade-in-up">
+  <div class="site-wrapper site-wrapper--small">
+    <h2><%= t "contact.general.title" %></h2>
+    <p><%= t "contact.general.text" %></p>
+    <form action="http://radimed.dev/ajax/sendEmail.php" method="post" id="general-inquiries" enctype="multipart/form-data">
+      <input class="field-input" type="text" placeholder="<%= t "form.name" %>" name="name">
+      <input class="field-input" type="email" placeholder="<%= t "form.email" %>" name="email">
+      <input type="hidden" name="template" value="general">
+      <textarea class="field-input field-input--textarea" placeholder="<%= t "form.message" %>" name="message"></textarea>
+      <button class="field-input field-input--button"><%= t "form.send" %></button>
+    </form>
+  </div>
+</section>
+
+<% content_for :page_scripts do %>
+  <%= javascript_include_tag 'contact' %>
+<% end %>

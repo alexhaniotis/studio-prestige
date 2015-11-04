@@ -18,6 +18,8 @@
     width: 200px;
     height: 54px;
     fill: $color-grey-dark;
+    pointer-events: none;
+    @include user-select(none);
     @include animation(fade-in-up $time $curve);
   }
 }
