@@ -1,14 +1,15 @@
 <footer class="main-footer wow animated fade-in-up" data-wow-offset="0">
   <div class="site-wrapper">
     <ul class="main-footer__items">
-      <% data.menuElements.top.each do |menuElement| %>
+      <% menuElements.each do |menuElement| %>
         <li><a href="<%= tlink "#{section}/#{menuElement.href}" %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= t "nav.#{menuElement.title}" %></a></li>
       <% end %>
       <li><a href="<%= translated_url other_lang %>"><%= other_lang.capitalize %></a></li>
     </ul>
     <div class="main-footer__social">
-      <a class="main-footer__social__link" href="https://www.facebook.com/Ecole-De-Danse-Prestige-107986232604267/">Facebook</a>
-      <a class="main-footer__social__link" href="https://twitter.com/DansePrestige">Twitter</a>
+      <% socialLinks.each do |link| %>
+        <a class="main-footer__social__link" href="<%= link[:url] %>"><%= link[:name] %></a>
+      <% end %>
     </div>
   </div>
 </footer>

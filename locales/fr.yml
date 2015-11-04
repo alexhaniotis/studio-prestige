@@ -16,6 +16,7 @@ fr:
     news: "Nouvelles"
     gallery: "Gallerie"
     contact: "Contact"
+    MindBody: "MindBody"
   contact:
     header: "Contact"
     other_common_element: "blabla"

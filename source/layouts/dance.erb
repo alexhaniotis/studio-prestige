@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= t "#{current_page.data.heading.downcase}.header" %> | Studio Prestige</title>
+    <meta name="description" content="<%= t "meta.description" %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= favicon_tag '/favicon.png' %>
+    <%= stylesheet_link_tag "main" %>
+
+  </head>
+  <body class="<%= page_classes %>">
+
+    <div class="site-container">
+
+      <%= partial :nav, locals: { menuElements: data.menuElements.dance } %>
+      <%= partial :header %>
+
+      <%= yield %>
+
+      <%= partial :cta %>
+      <%= partial :footer, locals: { menuElements: data.menuElements.group, socialLinks: [{name: "Facebook", url: "https://www.facebook.com/Ecole-De-Danse-Prestige-107986232604267/"}, {name: "Twitter", url: "https://twitter.com/DansePrestige"}] } %>
+
+    </div>
+
+    <%= partial :ga %>
+    <%= javascript_include_tag 'main' %>
+    <%= yield_content :page_scripts %>
+
+  </body>
+</html>

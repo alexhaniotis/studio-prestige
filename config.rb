@@ -35,7 +35,8 @@ helpers do
   end
 
   def tlink(href)
-    "/#{I18n.locale}/#{href}".gsub('index', '')
+    return href if href.include? "http"
+    "/#{I18n.locale}/#{section}/#{href}".gsub('index', '')
   end
 
   # Returns the current page's absolute path for the specified locale
@@ -56,5 +57,8 @@ helpers do
   end
 end
 
-page 'en/index.html', :layout => false
-page 'fr/index.html', :layout => false
+page '/*/dance/*', layout: "dance"
+page '/*/group/*', layout: "group"
+
+page '/en/index.html', layout: false
+page '/fr/index.html', layout: false

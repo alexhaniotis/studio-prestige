@@ -1,9 +1,9 @@
 <nav class="main-navigation">
   <div class="site-wrapper">
-    <a href="<%= tlink "index" %>"><%= partial :logo %></a>
+    <a href="/<%= I18n.locale %>"><%= partial :logo %></a>
     <ul class="main-navigation__items">
-      <% data.menuElements.top.each do |menuElement| %>
-        <li><a href="<%= tlink "#{section}/#{menuElement.href}" %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= t "nav.#{menuElement.title}" %></a></li>
+      <% menuElements.each do |menuElement| %>
+        <li><a href="<%= tlink "#{menuElement.href}" %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= t "nav.#{menuElement.title}" %></a></li>
       <% end %>
       <li><a href="<%= translated_url other_lang %>"><%= other_lang.capitalize %></a></li>
     </ul>

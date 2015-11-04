@@ -1,4 +1,3 @@
-//= require modernizr/modernizr
 //= require jquery
 //= require wow
 

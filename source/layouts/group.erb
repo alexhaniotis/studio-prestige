@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html>
   <head>
     <meta charset="utf-8">
     <title><%= t "#{current_page.data.heading.downcase}.header" %> | Studio Prestige</title>
@@ -12,19 +12,15 @@
   </head>
   <body class="<%= page_classes %>">
 
-    <!--[if lt IE 9]>
-      <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
     <div class="site-container">
 
-      <%= partial :nav %>
+      <%= partial :nav, locals: { menuElements: data.menuElements.group } %>
       <%= partial :header %>
 
       <%= yield %>
 
       <%= partial :cta %>
-      <%= partial :footer %>
+      <%= partial :footer, locals: { menuElements: data.menuElements.group, socialLinks: [{name: "Facebook", url: "https://www.facebook.com/Ecole-De-Danse-Prestige-107986232604267/"}, {name: "Twitter", url: "https://twitter.com/DansePrestige"}] } %>
 
     </div>
 
