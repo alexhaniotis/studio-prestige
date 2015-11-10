@@ -91,3 +91,23 @@ en:
     email: "Email"
     message: "Your message"
     send: "Send message"
+  group:
+    about:
+      title: "The most exclusive group class"
+      description: "Studio Evolution is an experienced leader at the cutting edge of personal training, semi-private and group training. Studio Evolution offer methodical monitoring, dedicated trainers, a relaxed atmosphere and much more. There’s a limited number of members, your organization’s private gym!"
+    service:
+      trx:
+        title: "Group TRX"
+        description: "Designed for all ages and fitness levels, the drive system TRX suspension allows to work with your body weight, all muscle groups in order to build strength, balance, flexibility and joint stability."
+      bootcamp:
+        title: "Cardio Bootcamp - Military Circuit"
+        description: "Muscular and cardiovascular circuit that improves functional capabilities of balance, coordination, power and muscular endurance."
+      zumba:
+        title: "Zumba"
+        description: "Workout based on rhythm and choreography inspired by Latin dance. Ideal for burning calories and toning your body."
+      ab:
+        title: "AB-Tonic"
+        description: "Class specific to abdominal muscle building that reinforces deep abdominals to protect the intervertebral discs and prevent back pain."
+      evo:
+        title: "Evo-Flex"
+        description: "Specific course of muscle and spine stretching that can reduce back and neck pain; making work day much more enjoyable."

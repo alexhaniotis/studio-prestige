@@ -91,3 +91,23 @@ fr:
     email: "Courriel"
     message: "Votre message"
     send: "Envoyer"
+  group:
+    about:
+      title: "Le plus privé des entraînements de groupe"
+      description: "Studio Evolution est un chef de file à la fine pointe en matière d'entraînement privé, semi-privé et de groupe. Studio Evolution offre un encadrement exclusif, un instructeur dévoué, une ambiance décontractée, et plus encore. Vous y retrouverez un nombre limité de membres, le gym privé de votre organisation!"
+    service:
+      trx:
+        title: "TRX en groupe"
+        description: "Conçu pour tous les âges et tous les niveaux de condition physique, Le système d’entraînement en suspension TRX permet de travailler avec le poids du corps, tous les groupes musculaires, dans le but de développer la force, l'équilibre, la souplesse et la stabilité des articulations."
+      bootcamp:
+        title: "Cardio Bootcamp - Circuit Militaire"
+        description: "Circuit musculaire et cardiovasculaire motivant visant l'amélioration des capacités fonctionnelles dont l’équilibre, la coordination, la puissance et l’endurance musculaire."
+      zumba:
+        title: "Zumba"
+        description: "Conditionnement physique s'appuyant sur des rythmes et des chorégraphies inspirées des danses latines. Idéal pour dépenser des calories et tonifier votre corps."
+      ab:
+        title: "AB-Tonic"
+        description: "Cours spécifique aux abdominaux qui permet le renforcement musculaire des abdominaux profonds pour ainsi protéger les disques intervertébraux de façon à prévenir les maux de dos."
+      evo:
+        title: "Evo-Flex"
+        description: "Cours spécifique d’étirement musculaire et d’étirement de la colonne vertébrale qui permet de réduire les douleurs au dos et au cou; ainsi rendre votre journée de travail beaucoup plus agréable."
