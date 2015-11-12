@@ -9,13 +9,13 @@ dance:
     href: gallery
   - title: contact
     href: contact
-    
+
 group:
   - title: about
     href: index
   - title: services
     href: services
+  - title: classes
+    href: "https://clients.mindbodyonline.com/classic/ws?studioid=270066&stype=-7&sView=week"
   - title: contact
     href: contact
-  - title: MindBody
-    href: http://google.com

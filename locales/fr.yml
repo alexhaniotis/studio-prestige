@@ -15,8 +15,8 @@ fr:
     services: "Services"
     news: "Nouvelles"
     gallery: "Gallerie"
+    classes: "Classes"
     contact: "Contact"
-    MindBody: "MindBody"
   contact:
     header: "Contact"
     other_common_element: "blabla"
