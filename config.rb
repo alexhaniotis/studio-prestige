@@ -27,6 +27,14 @@ configure :build do
   activate :imageoptim
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote   = 'dokku'
+  deploy.branch   = 'master'
+  deploy.build_before = true
+end
+
+
 # Methods defined in the helpers block are available in templates
 helpers do
   # Returns the current section (dance or groups)
