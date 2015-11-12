@@ -101,7 +101,7 @@
   background-color: $color-purple;
 
   .index__section__image {
-    background-image: url("/images/photo.jpg");
+    background-image: image-url("/images/photo.jpg");
   }
 }
 
@@ -110,6 +110,6 @@
   float: right;
 
   .index__section__image {
-    background-image: url("/images/photo02.jpg");
+    background-image: image-url("/images/photo02.jpg");
   }
 }

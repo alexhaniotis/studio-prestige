@@ -2,7 +2,7 @@
   <div class="site-wrapper">
     <ul class="main-footer__items">
       <% menuElements.each do |menuElement| %>
-        <li><a href="<%= tlink "#{section}/#{menuElement.href}" %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= t "nav.#{menuElement.title}" %></a></li>
+        <li><a href="<%= tlink "#{menuElement.href}" %>"<%= (current_page.path.split('.')[0] == menuElement.href[1..-1] ? ' class="active"' : '') %>><%= t "nav.#{menuElement.title}" %></a></li>
       <% end %>
       <li><a href="<%= translated_url other_lang %>"><%= other_lang.capitalize %></a></li>
     </ul>
