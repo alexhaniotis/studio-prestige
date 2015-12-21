@@ -15,15 +15,11 @@ en:
     services: "Services"
     news: "News"
     gallery: "Gallery"
-    classes: "Classes"
+    schedule: "Schedule"
+    appointments: "Appointments"
     contact: "Contact"
   contact:
     header: "Contact"
-    other_common_element: "blabla"
-    dance:
-      whatevs: "blabla"
-    groupe:
-      whatevs: "blabla"
     general:
       title: "General Inquiries"
       text: "Simply fill out the form below to get in touch with us."
@@ -35,11 +31,6 @@ en:
       text: "Our studio is located at 6605 Prince-Rupert Laval, QC H7H 1C9"
   news:
     header: "News"
-    other_common_element: "blabla"
-    dance:
-      whatevs: "blabla"
-    groupe:
-      whatevs: "blabla"
   about:
     header: "About"
     title: "To test the pleasure of dance"
@@ -96,6 +87,7 @@ en:
       title: "The most exclusive group class"
       description: "Studio Evolution is an experienced leader at the cutting edge of personal training, semi-private and group training. Studio Evolution offer methodical monitoring, dedicated trainers, a relaxed atmosphere and much more. There’s a limited number of members, your organization’s private gym!"
     service:
+      cta: Book a session online
       trx:
         title: "Group TRX"
         description: "Designed for all ages and fitness levels, the drive system TRX suspension allows to work with your body weight, all muscle groups in order to build strength, balance, flexibility and joint stability."

@@ -15,15 +15,11 @@ fr:
     services: "Services"
     news: "Nouvelles"
     gallery: "Gallerie"
-    classes: "Classes"
+    schedule: "Horaire"
+    appointments: "Rendez-vous"
     contact: "Contact"
   contact:
     header: "Contact"
-    other_common_element: "blabla"
-    dance:
-      whatevs: "blabla"
-    groupe:
-      whatevs: "blabla"
     general:
       title: "Information générale"
       text: "Veuillez remplir le formulaire ci-dessous pour nous toutes autres questions."
@@ -35,11 +31,6 @@ fr:
       text: "Notre studio est situé au 6605 Prince-Rupert Laval, QC H7H 1C9"
   news:
     header: "Nouvelles"
-    other_common_element: "blabla"
-    dance:
-      whatevs: "blabla"
-    groupe:
-      whatevs: "blabla"
   about:
     header: "À Propos"
     title: "D’éprouver le plaisir de danser"
@@ -96,6 +87,7 @@ fr:
       title: "Le plus privé des entraînements de groupe"
       description: "Studio Evolution est un chef de file à la fine pointe en matière d'entraînement privé, semi-privé et de groupe. Studio Evolution offre un encadrement exclusif, un instructeur dévoué, une ambiance décontractée, et plus encore. Vous y retrouverez un nombre limité de membres, le gym privé de votre organisation!"
     service:
+      cta: Réserver une session en ligne
       trx:
         title: "TRX en groupe"
         description: "Conçu pour tous les âges et tous les niveaux de condition physique, Le système d’entraînement en suspension TRX permet de travailler avec le poids du corps, tous les groupes musculaires, dans le but de développer la force, l'équilibre, la souplesse et la stabilité des articulations."

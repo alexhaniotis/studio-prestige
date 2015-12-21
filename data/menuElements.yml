@@ -15,7 +15,9 @@ group:
     href: index
   - title: services
     href: services
-  - title: classes
+  - title: schedule
     href: "https://clients.mindbodyonline.com/classic/ws?studioid=270066&stype=-7&sView=week"
+  - title: appointments
+    href: "https://clients.mindbodyonline.com/classic/ws?studioid=270066&stype=-9&sView=week"
   - title: contact
     href: contact
